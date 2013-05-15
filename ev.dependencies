@@ -1,0 +1,32 @@
+[
+  {
+    "repository": "android_device_htc_msm8960-common",
+    "target_path": "device/htc/msm8960-common",
+    "branch": "jellybean",
+    "dep_type": "device"
+  },
+  {
+    "repository": "android_device_htc_m7-common",
+    "target_path": "device/htc/m7-common",
+    "branch": "jellybean",
+    "dep_type": "device"
+  },
+  {
+    "repository": "android_kernel_htc_m7",
+    "target_path": "kernel/htc/m7",
+    "branch": "jellybean",
+    "dep_type": "kernel"
+  },
+  {
+    "repository": "android_hardware_qcom_audio-caf",
+    "target_path": "hardware/qcom/audio-caf",
+    "branch": "jellybean",
+    "dep_type": "hardware"
+  },
+  {
+    "repository": "android_hardware_qcom_display-caf",
+    "target_path": "hardware/qcom/display-caf",
+    "branch": "jellybean",
+    "dep_type": "hardware"
+  }
+]
