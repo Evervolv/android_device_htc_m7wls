@@ -30,12 +30,12 @@ PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank yo
 PRODUCT_RELEASE_NAME := m7wls
 
 # Copy compatible prebuilt files
-#PRODUCT_COPY_FILES +=  \
-#    vendor/ev/prebuilt/720p/media/bootanimation.zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES +=  \
+    vendor/ev/prebuilt/720p/media/bootanimation.zip:system/media/bootanimation.zip
 
-# 1080p overlay
-#PRODUCT_PACKAGE_OVERLAYS += \
-#    vendor/ev/overlay/1080p
+# 720p overlay
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/ev/overlay/720p
 
 # Hot reboot
 PRODUCT_PACKAGE_OVERLAYS += \
