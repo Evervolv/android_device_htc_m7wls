@@ -31,7 +31,7 @@ PRODUCT_RELEASE_NAME := m7wls
 
 # Copy compatible prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/ev/prebuilt/720p/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/ev/prebuilt/1080p/media/bootanimation.zip:system/media/bootanimation.zip
 
 # 720p overlay
 PRODUCT_PACKAGE_OVERLAYS += \
